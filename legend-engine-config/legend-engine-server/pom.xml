@@ -151,11 +151,6 @@
         </dependency>
         <dependency>
             <groupId>org.finos.legend.engine</groupId>
-            <artifactId>legend-engine-pure-code-core-extension</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.finos.legend.engine</groupId>
             <artifactId>legend-engine-language-pure-dsl-service-pure</artifactId>
             <scope>runtime</scope>
         </dependency>
@@ -480,6 +475,10 @@
             <artifactId>legend-engine-xt-sql-query</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.finos.legend.engine</groupId>
+            <artifactId>legend-engine-pure-code-core-extension</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.finos.legend.engine</groupId>
             <artifactId>legend-engine-configuration</artifactId>
